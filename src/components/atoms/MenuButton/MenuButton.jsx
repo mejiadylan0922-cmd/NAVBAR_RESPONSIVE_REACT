@@ -9,7 +9,7 @@ function MenuButton({ onClick, isOpen = false }) {
         aria-label={isOpen ? 'Cerrar menú' : 'Abrir menú'}
         aria-expanded={isOpen}
         >
-            <span>&#9776;</span>
+        ☰
         </button>
     )
 }
